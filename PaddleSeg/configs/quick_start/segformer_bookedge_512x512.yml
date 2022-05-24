@@ -14,10 +14,10 @@ train_dataset:
 #     - type: Resize
 #       target_size: [640, 640]
     - type: RandomHorizontalFlip
-#     - type: RandomDistort
-#       brightness_range: 0.4
-#       contrast_range: 0.4
-#       saturation_range: 0.4
+    - type: RandomDistort
+      brightness_range: 0.4
+      contrast_range: 0.4
+      saturation_range: 0.4
     - type: Normalize
   mode: train
 
